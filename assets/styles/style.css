@@ -128,18 +128,18 @@ h1{
     margin: 15px 20px;
 }
 
-.foter {
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-.foter__link {
+.footer__link {
     color: #5222D0;
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     line-height: 160%;
     padding: 15px;
     }
-.foter__link_grey {
+.footer__link_grey {
     color: #000;
 }
