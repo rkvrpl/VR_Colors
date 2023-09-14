@@ -10,47 +10,51 @@
 <body>
     <header class="header">
         <img class="header__logo" src="assets/icons/logo.svg" alt="logo">
-        <a class="header__button" href="#">Корзина<img class="header__button_basket" src="assets/icons/icon-basket.svg" alt="basket"></a>
+        <a class="button" href="#">Корзина<img class="button_basket" src="assets/icons/icon-basket.svg" alt="basket"></a>
     </header>
     <main class="second-title">
         <h1>Возможности</h1>
-        <section class="block">
-            <img class="block__img" src="assets/icons/img-human.svg" alt="human">
-            <h2 class="title">Без проводов</h2>
-            <p class="paragraph">Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы расставить трекеры.</p>
-        </section>
-        <section class="block">
-            <img class="block__img" src="assets/icons/img_robo.svg" alt="robo">
-            <h2 class="title">Без компьютера</h2>
-            <p class="paragraph">Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p>
-        </section>
-        <section class="block">
-            <img class="block__img" src="assets/icons/img-prog.svg" alt="prog">
-            <h2 class="title">До 10 часов работы</h2>
-            <p class="paragraph">Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</p>
-        </section>
-        <section class="block">
-            <h2 class="title">Сотни игр</h2>
-            <p class="paragraph">Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p>
-        </section>
-        <section class="block">
-            <h2 class="title">Почти даром</h2>
-            <p class="paragraph">По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.</p>
-        </section>
-        <aside class="subscribe">
-            <h2 class="title_white">Новости</h2>
-            <form >
-                <label for="email"></label>
-                <input type="email" placeholder="Эл. почта" id="email"/>
-            </form>
-            <a class="button" href="#">Подписаться</a>
-        </aside>
+        <div class="second-title__block-img">
+            <section class="block">
+                <img class="block__img" src="assets/icons/img-human.svg" alt="human">
+                <h2 class="title">Без проводов</h2>
+                <p class="paragraph paragraph_small">Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы расставить трекеры.</p>
+            </section>
+            <section class="block">
+                <img class="block__img" src="assets/icons/img_robo.svg" alt="robo">
+                <h2 class="title">Без компьютера</h2>
+                <p class="paragraph paragraph_small">Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p>
+            </section>
+            <section class="block">
+                <img class="block__img" src="assets/icons/img-prog.svg" alt="prog">
+                <h2 class="title">До 10 часов работы</h2>
+                <p class="paragraph paragraph_small">Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</p>
+            </section>
+        </div>
+        <div class="second-title__block">
+            <section class="block">
+                <h2 class="title">Сотни игр</h2>
+                <p class="paragraph paragraph_small">Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p>
+            </section>
+            <section class="block">
+                <h2 class="title">Почти даром</h2>
+                <p class="paragraph paragraph_small">По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.</p>
+            </section>
+            <aside class="subscribe">
+                <h2 class="title title_white">Новости</h2>
+                <form>
+                    <label for="email"></label>
+                    <input class="subscribe__form" type="email" placeholder="Эл. почта" id="email"/>
+                </form>
+                <a class="button subscribe__button" href="#">Подписаться</a>
+            </aside>
+        </div>
     </main>
     <foter class="foter">
-        <a class="foter__link_grey" href="#">Возможности</a>
-        <a class="foter__link_grey" href="#">Где купить</a>
-        <a class="foter__link_grey" href="#">Доставка</a>
-        <a class="foter__link_grey" href="#">Помощь</a>
+        <a class="foter__link foter__link_grey" href="#">Возможности</a>
+        <a class="foter__link foter__link_grey" href="#">Где купить</a>
+        <a class="foter__link foter__link_grey" href="#">Доставка</a>
+        <a class="foter__link foter__link_grey" href="#">Помощь</a>
     </foter>
 </body>
 </html>
